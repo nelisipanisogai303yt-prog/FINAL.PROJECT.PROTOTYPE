@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FINALPROJECTPROTOTYPE" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary_amber</item>
+        <item name="colorOnSecondary">@color/text_dark</item>
+        <item name="android:windowBackground">@color/background_cream</item>
+        <item name="android:statusBarColor">@color/primary_red_dark</item>
+    </style>
+
+    <style name="Theme.FINALPROJECTPROTOTYPE" parent="Base.Theme.FINALPROJECTPROTOTYPE" />
+
+    <!-- Custom Button Styles -->
+    <style name="CustomPrimaryButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <style name="CustomSecondaryButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/secondary_amber</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <style name="CustomGreenButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/accent_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+</resources>
